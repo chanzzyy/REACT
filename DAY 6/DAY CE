@@ -1,0 +1,67 @@
+Skip to content
+Navigation Menu
+Dhayanadh054
+/
+react-project
+
+Type / to search
+Code
+Issues
+Pull requests
+Actions
+Projects
+Security
+Insights
+Files
+Go to file
+t
+Day 1
+Day 4
+day 2
+day 3
+day 5
+cw 1
+dc
+pah
+day6
+day6ce
+day6ce2
+day6ce3
+Breadcrumbsreact-project/day6
+/day6ce
+Latest commit
+Dhayanadh054
+Dhayanadh054
+Update day6ce
+cfee25a
+ · 
+6 minutes ago
+History
+File metadata and controls
+
+Code
+
+Blame
+20 lines (17 loc) · 603 Bytes
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#000000" />
+  <meta name="description" content="Web site created using create-react-app" />
+  <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+  <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+  <title>React App</title>
+</head>
+
+<body>
+  <noscript>You need to enable JavaScript to run this app.</noscript>
+  <div id="root"></div>
+</body>
+
+</html>
+react-project/day6/day6ce at main · Dhayanadh054/react-project
+ 
