@@ -1,0 +1,55 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: url("https://media.licdn.com/dms/image/v2/D4D12AQGWyuE_9KYhLQ/article-inline_image-shrink_1000_1488/article-inline_image-shrink_1000_1488/0/1693984216145?e=1735171200&v=beta&t=ZajRxbBj66BfO4scK0yFTDAhJ5ZDEJwRskRQXB_VVwc");
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .login-form {
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 100%;
+    max-width: 400px;
+  }
+  
+  .login-form h2 {
+    margin-bottom: 20px;
+  }
+  
+  .input-container {
+    margin-bottom: 20px;
+  }
+  
+  .input-container input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  button {
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    background-color: #333;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #2575fc;
+  }
+  

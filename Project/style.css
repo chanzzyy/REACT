@@ -1,0 +1,353 @@
+/* General Styles */
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  box-sizing: border-box;
+}
+
+/* App Container */
+.app-container {
+  display: flex;
+  flex-direction: column;
+  height: 100000000vh;
+}
+
+/* Top Navigation */
+.top-nav {
+  background-color: #ccddf3;
+  color: black;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.top-nav h1 {
+  margin: 0;
+  font-size: 24px;
+}
+
+.nav-list {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  margin: 0;
+}
+
+.nav-list li {
+  padding: 15px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  display: flex;
+  align-items: center;
+}
+
+.nav-list li:hover {
+  background-color: #fff;
+  border-radius: 20px;
+}
+
+.nav-list li .icon {
+  margin-right: 10px;
+}
+
+/* Hero Section */
+.hero-section {
+  height: calc(100vh - 50px); /* Adjusted height */
+  background-image: url('https://images.rawpixel.com/image_800/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIzLTA4L3Jhd3BpeGVsX29mZmljZV8yNV9zaW1wbGVfM2RfaWxsdXN0cmF0aW9uX29mX2FfcmVjb3Zlcnlfcm9vbV93aV80ZjhkNDIwNC02N2I4LTQwMDQtYTBlNy05YjljMjIyMzE2ZGVfMS5qcGc.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #333;
+  position: relative;
+}
+
+.hero-text {
+  padding: 20px;
+  border-radius: 10px;
+}
+
+h1 {
+  font-size: 48px;
+  margin: 0;
+}
+
+p {
+  font-size: 24px;
+  margin-top: 10px;
+}
+
+/* About Us Section */
+.about-us {
+    padding: 20px;
+    background-color: #f4f4f4;
+    margin: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.about-us h2 {
+    font-size: 28px;
+    margin-bottom: 10px;
+    color: #2575fc;
+}
+
+.about-us p {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+/* Vision and Mission Section */
+.vision-mission {
+    padding: 20px;
+    background-color: #e9f5ff;
+    margin: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.vision-mission h2 {
+    font-size: 28px;
+    margin-bottom: 10px;
+    color: #2575fc;
+}
+
+.vision-mission p {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+/* Our Specialities Section */
+.our-specialities {
+  padding: 20px;
+  margin: 20px;
+  text-align: center;
+}
+
+.our-specialities h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+  color: #2575fc;
+}
+
+.specialities-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+}
+
+.speciality-card {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.speciality-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+}
+
+.speciality-card .card-icon {
+  font-size: 36px;
+  margin-bottom: 10px;
+  color: #2575fc;
+}
+
+.speciality-card h3 {
+  font-size: 20px;
+  margin: 0;
+  color: #333;
+}
+
+/* Doctors Section */
+.doctors-section {
+  padding: 20px;
+  margin: 20px;
+  text-align: center;
+}
+
+.doctors-section h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+  color: #2575fc;
+}
+
+.doctors-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+}
+
+.doctor-card {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.doctor-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+}
+
+.doctor-image {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.doctor-card h3 {
+  font-size: 20px;
+  margin: 0;
+  color: #333;
+}
+
+.doctor-card p {
+  font-size: 16px;
+  color: #666;
+  margin-bottom: 10px;
+}
+
+.book-appointment {
+  background-color: #2575fc;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.book-appointment:hover {
+  background-color: #1a5bb8;
+}
+
+/* Contact Us Section */
+.contact-us {
+  padding: 20px;
+  margin: 20px;
+  text-align: center;
+}
+
+.contact-us h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+  color: #2575fc;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.form-group {
+  width: 100%;
+  max-width: 400px;
+  margin-bottom: 15px;
+  text-align: left;
+}
+
+.form-group label {
+  display: block;
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.form-group textarea {
+  resize: vertical;
+  min-height: 100px;
+}
+
+.submit-button {
+  background-color: #2575fc;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.submit-button:hover {
+  background-color: #1a5bb8;
+}
+
+.contact-info {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap; /* Allow items to wrap on smaller screens */
+}
+
+.info-item {
+  display: flex;
+  align-items: center;
+  margin: 10px;
+}
+
+.info-icon {
+  font-size: 24px;
+  color: #2575fc;
+  margin-right: 10px;
+}
+
+.info-item p {
+  font-size: 16px;
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+  .specialities-container, .doctors-container {
+      grid-template-columns: repeat(2, 1fr); /* 2 cards in a row on medium screens */
+  }
+}
+
+@media (max-width: 768px) {
+  .specialities-container, .doctors-container {
+      grid-template-columns: 1fr; /* 1 card in a row on smaller screens */
+  }
+
+  .top-nav {
+      flex-direction: column; /* Stack elements on smaller screens */
+      text-align: center;
+  }
+
+  .nav-list {
+      flex-direction: column; /* Vertical nav on smaller screens */
+      align-items: center;
+  }
+}
+
+@media (max-width: 480px) {
+  h1 {
+      font-size: 32px; /* Reduce size on small screens */
+  }
+
+  p {
+      font-size: 18px;
+  }
+}
